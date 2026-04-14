@@ -28,6 +28,8 @@
 # MAGIC On most Databricks workspaces, `CREATE CATALOG` via SQL is restricted to
 # MAGIC admins. Creating it through the UI is the standard approach for trainees.
 # MAGIC %sql
+# COMMAND ----------
+# MAGIC %sql
 CREATE CATALOG IF NOT EXISTS insurance_catalog_manu MANAGED LOCATION 's3://databricks-storage-7474650621272587/unity-catalog/7474650621272587'
  
 # COMMAND ----------
